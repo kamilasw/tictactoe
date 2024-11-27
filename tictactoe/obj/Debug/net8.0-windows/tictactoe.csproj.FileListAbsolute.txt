@@ -1,0 +1,17 @@
+C:\Users\kamil\OneDrive\Pulpit\projects\tictactoe\tictactoe\bin\Debug\net8.0-windows\tictactoe.exe
+C:\Users\kamil\OneDrive\Pulpit\projects\tictactoe\tictactoe\bin\Debug\net8.0-windows\tictactoe.deps.json
+C:\Users\kamil\OneDrive\Pulpit\projects\tictactoe\tictactoe\bin\Debug\net8.0-windows\tictactoe.runtimeconfig.json
+C:\Users\kamil\OneDrive\Pulpit\projects\tictactoe\tictactoe\bin\Debug\net8.0-windows\tictactoe.dll
+C:\Users\kamil\OneDrive\Pulpit\projects\tictactoe\tictactoe\bin\Debug\net8.0-windows\tictactoe.pdb
+C:\Users\kamil\OneDrive\Pulpit\projects\tictactoe\tictactoe\obj\Debug\net8.0-windows\tictactoe.Form1.resources
+C:\Users\kamil\OneDrive\Pulpit\projects\tictactoe\tictactoe\obj\Debug\net8.0-windows\tictactoe.Properties.Resources.resources
+C:\Users\kamil\OneDrive\Pulpit\projects\tictactoe\tictactoe\obj\Debug\net8.0-windows\tictactoe.csproj.GenerateResource.cache
+C:\Users\kamil\OneDrive\Pulpit\projects\tictactoe\tictactoe\obj\Debug\net8.0-windows\tictactoe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kamil\OneDrive\Pulpit\projects\tictactoe\tictactoe\obj\Debug\net8.0-windows\tictactoe.AssemblyInfoInputs.cache
+C:\Users\kamil\OneDrive\Pulpit\projects\tictactoe\tictactoe\obj\Debug\net8.0-windows\tictactoe.AssemblyInfo.cs
+C:\Users\kamil\OneDrive\Pulpit\projects\tictactoe\tictactoe\obj\Debug\net8.0-windows\tictactoe.csproj.CoreCompileInputs.cache
+C:\Users\kamil\OneDrive\Pulpit\projects\tictactoe\tictactoe\obj\Debug\net8.0-windows\tictactoe.dll
+C:\Users\kamil\OneDrive\Pulpit\projects\tictactoe\tictactoe\obj\Debug\net8.0-windows\refint\tictactoe.dll
+C:\Users\kamil\OneDrive\Pulpit\projects\tictactoe\tictactoe\obj\Debug\net8.0-windows\tictactoe.pdb
+C:\Users\kamil\OneDrive\Pulpit\projects\tictactoe\tictactoe\obj\Debug\net8.0-windows\tictactoe.genruntimeconfig.cache
+C:\Users\kamil\OneDrive\Pulpit\projects\tictactoe\tictactoe\obj\Debug\net8.0-windows\ref\tictactoe.dll
