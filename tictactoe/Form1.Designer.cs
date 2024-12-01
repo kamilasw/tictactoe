@@ -42,6 +42,8 @@
             pictureBox9 = new PictureBox();
             label3 = new Label();
             button1 = new Button();
+            label4 = new Label();
+            label5 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -210,6 +212,31 @@
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
+            label4.Font = new Font("Segoe UI", 13F);
+            label4.ForeColor = Color.DarkOliveGreen;
+            label4.Location = new Point(325, 162);
+            label4.Name = "label4";
+            label4.Size = new Size(49, 36);
+            label4.TabIndex = 15;
+            label4.Text = "0:0";
+            label4.Click += label4_Click;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.BackColor = Color.Transparent;
+            label5.Font = new Font("Segoe UI", 13F);
+            label5.ForeColor = Color.DarkOliveGreen;
+            label5.Location = new Point(325, 126);
+            label5.Name = "label5";
+            label5.Size = new Size(82, 36);
+            label5.TabIndex = 16;
+            label5.Text = "score:";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -218,6 +245,8 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Center;
             ClientSize = new Size(726, 945);
+            Controls.Add(label5);
+            Controls.Add(label4);
             Controls.Add(button1);
             Controls.Add(label3);
             Controls.Add(pictureBox9);
@@ -264,5 +293,7 @@
         private PictureBox pictureBox9;
         private Label label3;
         private Button button1;
+        private Label label4;
+        private Label label5;
     }
 }

@@ -10,6 +10,7 @@ namespace tictactoe
         char[] grid = new char[9];
         char playerturn = 'o';
         bool gameover = false;
+        int[] wins = new int[2];
 
         bool horizontalwin()
         {
@@ -74,12 +75,16 @@ namespace tictactoe
                 if (playerturn == 'o')
                 {
                     label3.Text = "player " + '1' + " wins!";
+                    wins[0]++;
+                    label4.Text = $"{wins[0]}:{wins[1]}";
                     //restart?
                     return false;
                 }
                 else
                 {
                     label3.Text = "player " + '2' + " wins!";
+                    wins[1]++;
+                    label4.Text = $"{wins[0]}:{wins[1]}";
                     //restart?
                     return false;
                 }
@@ -109,7 +114,7 @@ namespace tictactoe
         }
 
 
-       
+
         public Form1()
         {
             InitializeComponent();
@@ -117,12 +122,14 @@ namespace tictactoe
             {
                 grid[i] = ' ';
             }
+            wins[0] = 0;
+            wins[1] = 0;
             this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            if(gameover == false)
+            if (gameover == false)
             {
                 if (this.pictureBox1.Image != null)
                 {
@@ -139,11 +146,11 @@ namespace tictactoe
             }
             else
             {
-               button1_Click(sender, e);
+                button1_Click(sender, e);
                 game(pictureBox1, 0);
                 gameover = false;
             }
-          
+
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -173,7 +180,7 @@ namespace tictactoe
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-           if( gameover == false)
+            if (gameover == false)
             {
                 if (this.pictureBox3.Image != null)
                 {
@@ -223,7 +230,7 @@ namespace tictactoe
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-           if(!gameover)
+            if (!gameover)
             {
                 if (this.pictureBox5.Image != null)
                 {
@@ -286,7 +293,7 @@ namespace tictactoe
                 game(pictureBox7, 6);
                 gameover = false;
             }
-          
+
         }
 
         private void pictureBox8_Click(object sender, EventArgs e)
@@ -310,7 +317,7 @@ namespace tictactoe
                 game(pictureBox8, 7);
                 gameover = false;
             }
-           
+
         }
 
         private void pictureBox9_Click(object sender, EventArgs e)
@@ -332,7 +339,7 @@ namespace tictactoe
                 game(pictureBox9, 8);
                 gameover = false;
             }
-          
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -361,6 +368,11 @@ namespace tictactoe
             pictureBox9.BorderStyle = BorderStyle.Fixed3D;
             playerturn = 'o';
             label3.Text = "player 1 turn";
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
